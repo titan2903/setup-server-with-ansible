@@ -2,6 +2,9 @@
   hostname:
     name: "{{ hostname }}"
 
+- name: Remove html directory
+  command: "rm -rf /var/www/laravelsandbox.com/html"
+
 - name: Install Nginx and PHP
   ansible.builtin.apt:
     name: "{{ item }}"
@@ -16,6 +19,8 @@
     - php-xml
     - php8.1-curl
     - php8.1-mbstring 
+    - php8.1-bcmath
+    - php8.1-gmp
 
 - name: Download Composer.phar
   ansible.builtin.get_url:
@@ -89,9 +94,6 @@
   ansible.builtin.template:
     src: secrets/.env
     dest: /var/www/laravelsandbox.com/html/.env
-    backup: false
 
 - name: Change ownership of /var/www/laravelsandbox.com/html/
-  become: true
-  become_user: root
   command: chown -R www-data:www-data /var/www/laravelsandbox.com/html/
