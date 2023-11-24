@@ -1,0 +1,5 @@
+- name: Test playbook
+  hosts: web-server
+  become: yes
+  roles:
+    - linux-update

@@ -1,0 +1,5 @@
+# Ignored file .env
+/roles/web-server/secrets/.env
+
+# Ignored file summary.txt
+summary.txt

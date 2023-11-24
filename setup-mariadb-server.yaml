@@ -1,0 +1,10 @@
+- name: Setup mariadb server
+  hosts: db-server
+  become: true
+  vars:
+    db_user: admin
+    db_password: admin123
+    db_name: laravel_starter
+  roles:
+    - linux-update
+    - setup-mariadb

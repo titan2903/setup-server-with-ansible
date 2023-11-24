@@ -1,0 +1,13 @@
+- name: Update ubuntu & debian linux
+  ansible.builtin.command: apt update
+  changed_when:
+    - ansible_distribution == 'Ubuntu'
+
+- name: Install system updates for ubuntu systems
+  apt:
+    name: '*'
+    state: present
+    update_cache: true
+    # cache_valid_time: 3600
+  when:
+    - ansible_distribution == "Ubuntu"
