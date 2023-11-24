@@ -3,7 +3,7 @@
   become: true
   vars:
     NODEJS_VERSION: "16"
-    PROJECT_PATH: /var/www/laravelsandbox.com/html
+    PROJECT_PATH: /var/www/laravelsandbox.com/html/
   roles:
     - linux-update
     - web-server

@@ -54,7 +54,7 @@
 
 - name: Create folder for Laravel Starter app
   ansible.builtin.file:
-    path: /var/www/laravelsandbox.com/html # nantinya soruce code di simpan di dalam folder `html`
+    path: "{{ PROJECT_PATH }}" # nantinya soruce code di simpan di dalam folder `html`
     owner: www-data
     group: www-data
     state: directory
@@ -82,18 +82,18 @@
     - Restart nginx
 
 - name: Git config safe directory
-  ansible.builtin.shell: git config --global --add safe.directory /var/www/laravelsandbox.com/html
+  ansible.builtin.shell: git config --global --add safe.directory "{{ PROJECT_PATH }}"
 
 - name: Clone Laravel Starter from Github
   ansible.builtin.git:
     repo: https://github.com/nasirkhan/laravel-starter.git
-    dest: /var/www/laravelsandbox.com/html
+    dest: "{{ PROJECT_PATH }}"
     force: true
 
 - name: Copy env file
   ansible.builtin.template:
     src: secrets/.env
-    dest: /var/www/laravelsandbox.com/html/.env
+    dest: "{{ PROJECT_PATH }}.env"
 
-- name: Change ownership of /var/www/laravelsandbox.com/html/
-  command: chown -R www-data:www-data /var/www/laravelsandbox.com/html/
+- name: Change ownership of "{{ PROJECT_PATH }}"
+  command: chown -R www-data:www-data "{{ PROJECT_PATH }}"
