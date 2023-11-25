@@ -19,7 +19,8 @@
 * [![MariaDB][mariadb-image]][mariadb-url]
 * [![Composer][composer-image]][composer-url]
 * [![NPM][npm-image]][npm-url]
-* [![Python][Python-image]][Python-url]
+* [![Python][python-image]][python-url]
+* [![Ubuntu][ubuntu-image]][ubuntu-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -141,5 +142,7 @@
 [composer-image]: https://img.shields.io/badge/composer-FFFFF0?style=for-the-badge&logo=composer&logoColor=8B4513
 [npm-url]: https://www.npmjs.com/
 [npm-image]: https://img.shields.io/badge/npm-FF0000?style=for-the-badge&logo=npm&logoColor=white
-[Python-url]: https://nextjs.org/
-[Python-image]: https://img.shields.io/badge/python-FFFFF0?style=for-the-badge&logo=python&logoColor=blue
+[python-url]: https://nextjs.org/
+[python-image]: https://img.shields.io/badge/python-FFFFF0?style=for-the-badge&logo=python&logoColor=blue
+[ubuntu-url]: https://ubuntu.com/
+[ubuntu-image]: https://img.shields.io/badge/ubuntu-FFFFF0?style=for-the-badge&logo=ubuntu&logoColor=FF8C00
