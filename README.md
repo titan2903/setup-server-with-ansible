@@ -31,7 +31,7 @@
 
 ### Setup Virtual Machine (VM)
 
-1. After the Virtual Machine is prepared, proceed to [generate an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) on your local computer or your computer. Then, copy the public key from the generated SSH key and paste it into the authorized_keys file located at the path ~/.ssh/authorized_keys on each server within the Virtual Machine (VM).
+1. After the Virtual Machine is prepared, proceed to [generate an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) on your local computer or your computer. Then, copy the public key from the generated SSH key and paste it into the `authorized_keys` file located at the path `~/.ssh/authorized_keys` on each server within the Virtual Machine (VM).
 
 2. Implemented a script to eliminate the need for password entry when executing sudo. Refer to the instructions [here](https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password/) for adding the script.
 
