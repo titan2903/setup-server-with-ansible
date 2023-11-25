@@ -145,4 +145,4 @@
 [python-url]: https://nextjs.org/
 [python-image]: https://img.shields.io/badge/python-FFFFF0?style=for-the-badge&logo=python&logoColor=blue
 [ubuntu-url]: https://ubuntu.com/
-[ubuntu-image]: https://img.shields.io/badge/ubuntu-FFFFF0?style=for-the-badge&logo=ubuntu&logoColor=FF8C00
+[ubuntu-image]: https://img.shields.io/badge/ubuntu-CC0066?style=for-the-badge&logo=ubuntu&logoColor=FF8C00
