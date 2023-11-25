@@ -9,7 +9,7 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 **Laravel Starter** is a Laravel 10.x based simple starter project. Most of the commonly needed features of an application like `Authentication`, `Authorisation`, `User` and `Role management`, `Application Backend`, `Backup`, `Log viewer` are available here. It is modular, so you may use this project as a base and build your own modules. A module can be used in any `Laravel Starter` based projects.
-[Github](https://github.com/nasirkhan/laravel-starter) or source code for Laravel Starter.
+[**Github**](https://github.com/nasirkhan/laravel-starter) or source code for Laravel Starter.
 
 ## Build with
 
@@ -20,9 +20,9 @@
 
 ### Prerequisites
 
-* Set up two servers using [Ubuntu Server 22.04.3 LTS](https://ubuntu.com/download/server) for the Web Server and Database Server by deploying Virtual Machines (VMs) on a laptop, utilizing platforms such as [VirtualBox](https://www.virtualbox.org/) or a Cloud Provider
+* Set up two servers using [**Ubuntu Server 22.04.3 LTS**](https://ubuntu.com/download/server) for the Web Server and Database Server by deploying Virtual Machines (VMs) on a laptop, utilizing platforms such as [**VirtualBox**](https://www.virtualbox.org/) or a Cloud Provider
 * Virtual Machine (VM) specifications are as follows:
-  * [Ubuntu Server 22.04.3 LTS](https://ubuntu.com/download/server)
+  * [**Ubuntu Server 22.04.3 LTS**](https://ubuntu.com/download/server)
   * At least 1 vCPU
   * Minimum of 2GB RAM
   * Minimum storage capacity of 10GB
@@ -31,11 +31,11 @@
 
 ### Setup Virtual Machine (VM)
 
-1. After the Virtual Machine is prepared, proceed to [generate an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) on your local computer or your computer. Then, copy the public key from the generated SSH key and paste it into the `authorized_keys` file located at the path `~/.ssh/authorized_keys` on each server within the Virtual Machine (VM).
+1. After the Virtual Machine is prepared, proceed to [**generate an SSH key**](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) on your local computer or your computer. Then, copy the public key from the generated SSH key and paste it into the `authorized_keys` file located at the path `~/.ssh/authorized_keys` on each server within the Virtual Machine (VM).
 
-2. Implemented a script to eliminate the need for password entry when executing sudo. Refer to the instructions [here](https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password/) for adding the script.
+2. Implemented a script to eliminate the need for password entry when executing sudo. Refer to the instructions [**here**](https://www.cyberciti.biz/faq/linux-unix-running-sudo-command-without-a-password/) for adding the script.
 
-3. Configure a static IP address to ensure its stability. Refer to [the provided instructions](https://www.ardanisite.com/cara-setting-ip-address-ubuntu-server/) for a step-by-step guide on setting up a static IP.
+3. Configure a static IP address to ensure its stability. Refer to [**the provided instructions**](https://www.ardanisite.com/cara-setting-ip-address-ubuntu-server/) for a step-by-step guide on setting up a static IP.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
