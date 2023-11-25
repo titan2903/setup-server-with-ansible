@@ -14,6 +14,12 @@
 ## Build with
 
 * [![Ansible][Ansible-image]][Ansible-url]
+* [![PHP][php-image]][php-url]
+* [![Nginx][nginx-image]][nginx-url]
+* [![MariaDB][mariadb-image]][mariadb-url]
+* [![Composer][composer-image]][composer-url]
+* [![NPM][npm-image]][npm-url]
+* [![Python][Python-image]][Python-url]
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -125,3 +131,15 @@
 [Ansible-url]: https://www.ansible.com/
 [Ansible-image]: https://img.shields.io/badge/ansible-FFFFF0?style=for-the-badge&logo=ansible&logoColor=black
 [product-screenshot]: https://ik.imagekit.io/ckb21lc9cd/Screenshot/Screenshot%20from%202023-11-25%2008-11-17_GzDHKSIaY.png?updatedAt=1700874692938
+[php-url]: https://www.php.net/
+[php-image]: https://img.shields.io/badge/php-7A86B8?style=for-the-badge&logo=php&logoColor=black
+[nginx-url]: https://www.nginx.com/
+[nginx-image]: https://img.shields.io/badge/nginx-228B22?style=for-the-badge&logo=nginx&logoColor=white
+[mariadb-url]: https://mariadb.org/
+[mariadb-image]: https://img.shields.io/badge/mariadb-FFFFF0?style=for-the-badge&logo=mariadb&logoColor=blue
+[composer-url]: https://getcomposer.org/
+[composer-image]: https://img.shields.io/badge/composer-FFFFF0?style=for-the-badge&logo=composer&logoColor=8B4513
+[npm-url]: https://www.npmjs.com/
+[npm-image]: https://img.shields.io/badge/npm-FF0000?style=for-the-badge&logo=npm&logoColor=white
+[Python-url]: https://nextjs.org/
+[Python-image]: https://img.shields.io/badge/python-FFFFF0?style=for-the-badge&logo=python&logoColor=blue
