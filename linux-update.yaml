@@ -1,4 +1,4 @@
-- name: Test playbook
+- name: Linux Update
   hosts: web-server
   become: yes
   roles:
