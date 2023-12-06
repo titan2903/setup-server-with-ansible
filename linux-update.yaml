@@ -1,5 +1,7 @@
 - name: Linux Update
-  hosts: web-server
+  hosts: 
+    - web-server
+    - db-server
   become: yes
   roles:
     - linux-update
