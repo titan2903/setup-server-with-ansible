@@ -28,6 +28,7 @@
     priv: '*.*:ALL,GRANT'
     host: '%'
     state: present
+    column_case_sensitive: true
 
 - name: Create database
   community.mysql.mysql_db:
